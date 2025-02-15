@@ -1,0 +1,617 @@
+
+body{
+  background-color: #F4F5F9 !important;
+  width: 100%;
+  height: auto;
+}
+
+.butn{
+  background:linear-gradient(#E8411D, #FAAC52);
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+/*------------------------ navbar --------------------------------------*/
+.navbar{
+  width: 70%;
+  background-color: #fff !important;
+  height: 70px !important;
+ border-radius: 10px;
+ 
+ top: 10px;
+ z-index: 9999;
+ margin: 0 auto;
+}
+
+@media(max-width:768px){
+  .navbar{
+    width: 100%;
+  }
+  .navbar ul{
+    background-color:green;
+    color:white !important;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .navbar ul li a{
+    color: white;
+  }
+
+}
+/*-------------------------- hero ------------------------------------*/
+.hero{
+  width: 100% !important;
+  background-color:#F4F5F9 !important;
+  height: 53vh;
+}
+.h-1{
+ width: 57% !important;
+
+}
+.h-1 h1{
+   font-family: "Urbanist", serif;
+   font-size: 50px;
+   font-weight: 700;
+
+}
+.h-1 h1 span{
+ color: #E8411D;
+}
+.h-1 p{
+  font-family: "Urbanist", serif;
+  font-weight: 400; 
+  color: #6D6C79;
+  font-size: 16px;
+}
+
+.hero-1{
+ margin-left: 215px;
+ margin-top: 70px;
+}
+
+.h-2{
+  width: 40% !important;
+  
+}
+.h-2 img{
+ width: 590px;
+ margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto; 
+   width: 100% !important;
+   
+  }
+
+  .h-1, .h-2 {
+    width: 100% !important;
+   
+    margin-bottom: 20px;
+  }
+ .hero-1{
+ margin-left: 0;
+ }
+
+ .h-1, .h-2 {
+    width: 100% !important;
+   
+    margin-bottom: 20px;
+  }
+.h-2 img{
+width: 100%;
+}
+}
+
+
+/*--------------------- contain ----------------------------------------*/
+.contain{
+  background-color: #FBFBFB;
+  width: 100%;
+  height: 480px;
+
+}
+
+.card{
+  width: 350px;
+  height: 400px;
+  margin-top: 90px;
+  border-radius: 15px;
+  padding: 10px 0;
+ box-shadow: 0 0 2px;
+
+}
+
+.aa img{
+  margin-left: 20px;
+}
+
+.aa h2{
+ margin-left: 20px; 
+}
+.aa p{
+  margin-left: 20px;
+}
+.aa a{
+  margin-left: 20px;
+  text-decoration: overline;
+}
+.c-1{
+  margin-left: 190px;
+}
+.c-2{
+margin-left: 56px;
+}
+.c-3{
+margin-left: -80px;
+}
+@media(max-width:768px){
+  .contain{
+    width: 100%;
+    height: auto;
+  }
+  .card{
+    width: 95%;
+    margin-top: 10px;
+    padding: 5px;
+    
+  }
+
+  .c-1{
+    margin-left: 9px;
+  }
+  .c-2{
+    margin-left: 9px;
+  }
+  .c-3{
+    margin-left: 9px;
+  }
+}
+
+
+/*------------------ about part ----------------------------------*/
+.about{
+  width: 100%;
+  height: 460px;
+  background-color: #FEFEFE;
+}
+
+.a-1 img{
+  width: 450px;
+  margin-left: 220px;
+}
+
+.a-2 h5{
+  font-family:"Urbanist", serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.a-2 h1{
+ font-family:"Urbanist", serif;
+ font-size: 40px;
+ color: #221F3F; 
+ font-weight: 700;
+}
+.dg{
+  display: flex;
+  margin-top: 18px;
+}
+.im img{
+  width: 40px;
+}
+.te{
+  margin-left: 28px;
+}
+.te h3{
+  color: #221F3F;
+  font-family: "Urbanist", serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.te p{
+  color: #6D6C79;
+  font-family: "Urbanist", serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width:768px){
+  .about{
+    width: 100%;
+    height: auto;
+   }
+  .a-1 img{
+    width: 95%;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+  .a-2 h5{
+    margin-top: 20px;
+  }
+}
+
+
+/*------------------------- pricing ------------------------------------*/
+
+.price{
+background-color: #F7F8FA;
+width: 100%;
+height: 700px;
+}
+
+.price p{
+  text-align: center;
+  font-family: "Urbanist", serif;
+  font-size: 16px;
+  color: #221F3F;
+  margin-top: 80px;
+}
+.price h1{
+  text-align: center;
+  font-family: "Urbanist", serif;
+  font-size: 54px;
+  font-weight: bold;
+  color: #221F3F;
+}
+.plist{
+  height: 400px;
+  width: 340px;
+background-color:#fff;
+border-radius: 16px;
+border-top: 10px solid #57D288;
+padding: 10px;
+margin-top: 50px;
+}
+.plist ul{
+  list-style: none;
+  position: relative;
+  margin-left: -15px;
+  }
+  .check img{
+    position: absolute;
+    right: 32px;
+  }
+  .check li{
+    font-family:  "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .plist h2{
+    font-family:  "Urbanist", serif;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+  color: #E8411D;
+    margin-top: 8px;        
+  }
+  .plist span{
+   font-size: 20px;
+   font-family:  "Urbanist", serif;
+   font-weight: 500;
+   color: #000;
+  }
+
+  .plist h4{
+    text-align: center;
+    font-family:  "Urbanist", serif;
+    color: #221F3F;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .baton{
+    text-align: center;
+    padding: 8px 2px;
+    border-radius: 20px;
+    border:1px solid #6D6C79 ;
+  }
+  .baton a{
+    text-decoration: none;
+     font-family:  "Urbanist", serif;
+    color: #221F3F;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .p-1{
+    margin-left: 170px;
+  }
+  .p-2{
+    border-radius: 16px;
+border-top: 10px solid #FD9C51;
+margin-left: 44px;
+  }
+  .p-3{
+    border-radius: 16px;
+border-top: 10px solid #FB5252;
+margin-left: -76px;
+  }
+
+  @media (max-width:768px){
+    .price{
+      width: 100%;
+      height: auto;
+    }
+    .plist{
+      margin-left: 1px;
+    }
+  }
+
+  
+
+  /*------------------------ banner ----------------------------------*/
+  .banner{
+    background-image: url(./asset/banner\ bac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76% !important;
+    height: 450px;
+    border-radius: 15px;
+  }
+
+  .b-2 p{
+    color: #F17216;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 60px;
+  }
+  .b-2 h1{
+    font-family: system-ui, -apple-system, Ubuntu, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .b-2 ul{
+    list-style: none;
+    margin-top: 12px;
+  }
+  .b-2 li{
+    color: #CED1E5;
+     font-family: system-ui, -apple-system, Ubuntu, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+  }
+  .bbb{
+    width: 150px;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-top: 36px;
+    margin-left: 30px;
+  }
+
+  @media(max-width:768px){
+    .banner{
+      width: 100%;
+      height: auto;
+      margin-left: 1px;
+      margin-top: 18px;
+    }
+    .b-1 img{
+     width:100%;
+    }
+  }
+  
+  /*----------------------------- process ---------------------------*/
+
+  .process{
+    width: 100%;
+    height: 570px;
+    background-color: #F4F5F9;
+    margin-top: 80px;
+  }
+
+  .process p{
+    text-align: center;
+    font-family:  "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #221F3F;
+  }
+  .process h1{
+    text-align: center;
+      font-family:  "Urbanist", serif;
+     color: #221F3F;
+     font-size: 54px; 
+     font-weight: bold;
+  } 
+
+  .w-1{
+    background-color: #fff;
+    width: 22% !important;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 2px;
+    position: relative;
+    margin-left: 10px;
+  }
+  .w-1 h2{
+      font-family:  "Urbanist", serif;
+     color: #221F3F;
+     font-size: 22px; 
+     font-weight: bold;
+     margin-top: 20px;
+     margin-left: 20px;
+  }
+  .w-1 h5{
+    text-align: right;
+    font-size: 15px;
+    color: #6D6C79;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  .w-1 p{
+    text-align: left;
+    color: #6D6C79;
+     font-family:  "Urbanist", serif;
+     margin-left: 20px;
+     margin-top: 20px;
+  }
+  .w-1 img{
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+@media(max-width:768px){
+.process{
+  width: 100%;
+  height: auto;
+}
+.w-1{
+  width: 90% !important;
+  height: auto;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+}
+
+
+
+/*----------------------- testimonial -------------------------------*/
+.test{
+  width: 100%;
+  height: 600px;
+  background-color: #FEFEFE;
+}
+.test p{
+  text-align: center;
+  background: linear-gradient(45deg, #47479F, #9191D7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.test h1{
+  color: #221F3F;
+  text-align: center;
+   font-family:  "Urbanist", serif;
+   font-size: 54px;
+   font-weight: bold;
+}
+
+@media (max-width:768px){
+  .test{
+    width: 100%;
+    height: auto;
+  }
+  .t-1 img, .t-2 img{
+    width: 100% !important;
+    margin-left: 0;
+  }
+}
+
+/*---------------------------- footer -------------------------------*/
+.footer{
+  background-image: url(./asset/footer\ banner.png);
+  width: 100%;
+  height: 500px;
+}
+
+.f-1 img{
+  margin-top: 60px;
+}
+
+.f-1 p{
+  color: #fff;
+  font-family:  "Urbanist", serif;
+   font-size: 16px;
+   margin-top: 15px;
+}
+
+.f-1 h6{
+  font-family:  "Urbanist", serif;
+   font-size: 16px;
+   color: #fff;
+}
+.f-1 h5{
+   font-family:  "Urbanist", serif;
+   font-size: 16px;
+   color: #fff;
+   margin-top: 10px; 
+}
+.email input{
+  background-color: #221F3F;
+  padding: 13px;
+  border-radius: 26px;
+  border: 2px solid #ccc;
+  position: relative;
+  margin-top: 57px;
+}
+.email img{
+  position: absolute;
+  left: 267px;
+}
+
+.f-2 h2{
+  margin-top: 60px;
+  font-size: 22px;
+  font-family:  "Urbanist", serif;
+  color: #fff;
+  font-weight: 600;
+}
+.f-2 h3{
+    font-size: 20px;
+  font-family:  "Urbanist", serif;
+  color: #fff;
+  font-weight: 500;
+}
+.f-2 p{
+  font-size: 16px;
+  font-family:  "Urbanist", serif;
+  color: #fff;
+  font-weight: 500; 
+}
+
+.f-3 h2{
+    margin-top: 60px;
+  font-size: 22px;
+  font-family:  "Urbanist", serif;
+  color: #fff;
+  font-weight: 600;
+}
+.f-3 ul{
+ 
+  font-size: 16px;
+  font-family:  "Urbanist", serif;
+  color: #fff;
+  font-weight: 400;
+  line-height: 40px;
+list-style-image: url(./asset/arro2.png);
+}
+
+.f-4 h2{
+    margin-top: 60px;
+  font-size: 22px;
+  font-family:  "Urbanist", serif;
+  color: #fff;
+  font-weight: 600;
+}
+.f-4 ul{
+  list-style: none;
+  line-height: 50px;
+  color: #fff;
+ margin-left: -24px;
+}
+
+.fff{
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media (max-width:768px){
+  .footer{
+    width: 100%;
+    height: auto;
+  }
+  .f-1, .f-2, .f-3, .f-4{
+    width: 100% !important;
+  }
+}
+

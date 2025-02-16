@@ -1,2 +1,2 @@
 # Project-Digiplus
-https://sheikhkiron.github.io/Kiron-Portfolio/
+https://sheikhkiron.github.io/Project-Digiplus/
